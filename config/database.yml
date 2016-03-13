@@ -1,0 +1,14 @@
+default: &default
+  adapter: postgresql
+  user: matismasters
+  password: matismasters
+  pool: 5
+  timeout: 5000
+
+development:
+  <<: *default
+  database: mrwattson_development
+
+test:
+  <<: *default
+  database: mrwattson_test
