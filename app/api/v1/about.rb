@@ -1,4 +1,4 @@
-module MrWattsonRaspberry
+module MrWattsonServer
   module Endpoints
     # Exposes endpoints that present descriptive information
     # about the API
@@ -8,7 +8,7 @@ module MrWattsonRaspberry
         get do
           {
             version: 1,
-            name: 'MrWattsonRaspberry API',
+            name: 'MrWattsonServer API',
             description: 'OnDevice API for MrWattson',
             vendor: 'mr.wattson',
             licence: 'GPL'

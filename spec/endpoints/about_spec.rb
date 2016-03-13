@@ -1,8 +1,8 @@
-RSpec.describe MrWattsonRaspberry::Endpoints::About do
+RSpec.describe MrWattsonServer::Endpoints::About do
   include Rack::Test::Methods
 
   def app
-    MrWattsonRaspberry::Endpoints::About
+    MrWattsonServer::Endpoints::About
   end
 
   describe '/v1/about API Description', type: :request do

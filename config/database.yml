@@ -7,8 +7,8 @@ default: &default
 
 development:
   <<: *default
-  database: mrwattson_development
+  database: mrwattson_server_development
 
 test:
   <<: *default
-  database: mrwattson_test
+  database: mrwattson_server_test

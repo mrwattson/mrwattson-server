@@ -1,7 +1,7 @@
 dir = File.dirname(__FILE__)
 
 # APP wrapper
-module MrWattsonRaspberry
+module MrWattsonServer
   # Endpoints Wrapper
   module Endpoints
   end
@@ -25,5 +25,3 @@ Grape::ActiveRecord.database_file = 'config/database.yml'
 require "#{dir}/app/api/v1/about.rb"
 require "#{dir}/app/api/v1/base.rb"
 require "#{dir}/app/models/reading.rb"
-require "#{dir}/lib/reader.rb"
-require "#{dir}/lib/sender.rb"

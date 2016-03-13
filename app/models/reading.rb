@@ -1,4 +1,4 @@
-module MrWattsonRaspberry
+module MrWattsonServer
   module Models
     # Represents the local ocpy of the 'readings' from the mr.wattson hardware
     class Reading < ActiveRecord::Base
